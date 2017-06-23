@@ -41,6 +41,32 @@ git push --tag
 
 git log --graph --oneline --all --decorate
 git config --global alias.lga "log --graph --online --all --decorate"
+git branch <name> [<sha1>]
+git branch -m <currentname> <newname>
+git branch -d <name>
+git branch -D <name>
+git checkout -b <newname>
+git reflog ==> [git keeps the reflog worth of 30 days]
+git branch <name> <sha1> ==> [restores a branch with that sha1]
+git show HEAD
+git stash
+git stash list
+git stash apply ==> [restores recursively]
+git stash pop 
+git stash drop
+git stash branch <name>
+git merge <branchname> ==> merges the branchname to the current branch.
+git mergetool
+git diff --cached
+git rebase <branchname> ==> pruns the current branch and puts on top of the branchname.
+git rebase --continue ==> resume further conflicts
+git cherry-pick <sha1> 
+git fetch <remote> <local branch>
+git push
+git push <remote> <local branch>
+git branch -r
+git push <remote> <local branch>:<new remote branchname>
+git push <remote> :<new remote branchname> ==> this command deletes the named remote branch name
 
 Notes: (IMP)
 [branches are labels on sha1 of the individual commits]
