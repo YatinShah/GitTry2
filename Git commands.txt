@@ -13,3 +13,16 @@ git clean
 git clean -n
 git clean -f
 .gitignore
+git log --oneline
+git log --online --graph
+git shortlog -sne
+git show <head or sha1>
+git remote
+git remote -v
+git branch
+git branch -r
+git tag
+
+git remote add <basename> https://github.com/<username>/<reponame.txt>
+ 
+
