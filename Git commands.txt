@@ -38,3 +38,9 @@ git tag -a v1.0 -m " some message"
 git tag -s v1.0_signed -m "signed tag"
 git tag -v v1.0
 git push --tag
+
+git log --graph --oneline --all --decorate
+git config --global alias.lga "log --graph --online --all --decorate"
+
+Notes: (IMP)
+[branches are labels on sha1 of the individual commits]
