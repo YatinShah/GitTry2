@@ -9,3 +9,4 @@ git reset --hard
 git reset --soft
 
 one more change to the file.
+fix1
