@@ -3,3 +3,4 @@ updating bug1234 again
  1 file changed, 1 deletion(-)
 feature1
 
+fix1
