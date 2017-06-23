@@ -12,3 +12,4 @@ git reset --soft <sha1 OR Head~n>
 git clean
 git clean -n
 git clean -f
+.gitignore
