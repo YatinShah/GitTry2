@@ -32,3 +32,9 @@ git pull ==> git fetch <reponame>; git merge BaseRepo/master
 git branch --set-upstream master BaseRepo/master
 git push BaseRepo  master
 git remote rm BaseRepo
+git tag <name>
+git tag
+git tag -a v1.0 -m " some message"
+git tag -s v1.0_signed -m "signed tag"
+git tag -v v1.0
+git push --tag
