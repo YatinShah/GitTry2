@@ -44,3 +44,4 @@ git config --global alias.lga "log --graph --online --all --decorate"
 
 Notes: (IMP)
 [branches are labels on sha1 of the individual commits]
+[branches will follow commits and they will move along checkins whiile tags remains on the same commit, they are friendly names on sha1]
