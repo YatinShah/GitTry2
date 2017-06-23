@@ -31,3 +31,4 @@ git branch -r
 git pull ==> git fetch <reponame>; git merge BaseRepo/master
 git branch --set-upstream master BaseRepo/master
 git push BaseRepo  master
+git remote rm BaseRepo
