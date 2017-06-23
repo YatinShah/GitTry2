@@ -4,3 +4,4 @@ updating bug1234 again
 feature1
 
 fix1
+fix1
