@@ -26,4 +26,6 @@ git tag
 (for the command below, do create the repo online first.)
 git remote add <basename> https://github.com/<username>/<reponame>
  
-
+git branch -r
+git pull ==> git fetch <reponame>; git merge BaseRepo/master
+git branch --set-upstream master BaseRepo/master
