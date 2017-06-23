@@ -23,6 +23,7 @@ git branch
 git branch -r
 git tag
 
-git remote add <basename> https://github.com/<username>/<reponame.txt>
+(for the command below, do create the repo online first.)
+git remote add <basename> https://github.com/<username>/<reponame>
  
 
