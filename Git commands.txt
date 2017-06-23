@@ -9,3 +9,6 @@ git add <filename>
 git commit -m "some comment here"
 git reset --hard <sha1 OR Head~n>
 git reset --soft <sha1 OR Head~n>
+git clean
+git clean -n
+git clean -f
